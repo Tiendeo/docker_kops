@@ -8,7 +8,7 @@ ARG AWSCLI_VERSION=1.18.69
 ARG KUBERNETES_VERSION=v1.16.10
 
 # curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4
-ARG KOPS_VERSION=v1.16.3
+ARG KOPS_VERSION=v1.17.0
 
 ## Kubectl + AWS + KOPS
 RUN apt update \
