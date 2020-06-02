@@ -5,7 +5,7 @@ FROM python:3.8-slim-buster
 ARG AWSCLI_VERSION=1.18.69
 
 # curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt
-ARG KUBERNETES_VERSION=v1.16.10
+ARG KUBERNETES_VERSION=v1.17.6
 
 # curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4
 ARG KOPS_VERSION=v1.17.0
